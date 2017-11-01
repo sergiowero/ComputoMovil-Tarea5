@@ -13,19 +13,49 @@
 		815D4DCF1FA154F500EAE7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815D4DCD1FA154F500EAE7E1 /* Main.storyboard */; };
 		815D4DD11FA154F500EAE7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815D4DD01FA154F500EAE7E1 /* Assets.xcassets */; };
 		815D4DD41FA154F500EAE7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 815D4DD21FA154F500EAE7E1 /* LaunchScreen.storyboard */; };
+		815D4DE21FA15A8300EAE7E1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 815D4DE11FA15A8300EAE7E1 /* Podfile */; };
+		815D4DE41FA15A8E00EAE7E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 815D4DE31FA15A8E00EAE7E1 /* GoogleService-Info.plist */; };
+		81DF863F1FA94BB900AB855A /* zapato3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81DF863B1FA94BB800AB855A /* zapato3.jpeg */; };
+		81DF86401FA94BB900AB855A /* zapato1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81DF863C1FA94BB800AB855A /* zapato1.jpeg */; };
+		81DF86411FA94BB900AB855A /* zapato2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81DF863D1FA94BB800AB855A /* zapato2.jpeg */; };
+		81DF86421FA94BB900AB855A /* zapato4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81DF863E1FA94BB800AB855A /* zapato4.jpeg */; };
+		81DF86471FA94BEB00AB855A /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DF86441FA94BEA00AB855A /* cellMainTable.m */; };
+		81DF86481FA94BEB00AB855A /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DF86461FA94BEB00AB855A /* cellMainTable.xib */; };
+		81DF864B1FA94BFC00AB855A /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DF864A1FA94BFB00AB855A /* InfoViewController.m */; };
+		81DF864E1FA94E1400AB855A /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DF864D1FA94E1400AB855A /* TableController.m */; };
+		81DF86541FA9572000AB855A /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DF86521FA9571E00AB855A /* BuyViewController.m */; };
+		A2712AB888E10F0CFC872F99 /* libPods-MyAnalitics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B639FF5F3F5BA407C0FDEA /* libPods-MyAnalitics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26B639FF5F3F5BA407C0FDEA /* libPods-MyAnalitics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAnalitics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		815D4DC11FA154F500EAE7E1 /* MyAnalitics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAnalitics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		815D4DC51FA154F500EAE7E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		815D4DC71FA154F500EAE7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		815D4DC81FA154F500EAE7E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		815D4DCA1FA154F500EAE7E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		815D4DCB1FA154F500EAE7E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		815D4DC71FA154F500EAE7E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyAnalitics/AppDelegate.h; sourceTree = "<group>"; };
+		815D4DC81FA154F500EAE7E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyAnalitics/AppDelegate.m; sourceTree = "<group>"; };
+		815D4DCA1FA154F500EAE7E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MyAnalitics/ViewController.h; sourceTree = "<group>"; };
+		815D4DCB1FA154F500EAE7E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MyAnalitics/ViewController.m; sourceTree = "<group>"; };
 		815D4DCE1FA154F500EAE7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		815D4DD01FA154F500EAE7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815D4DD31FA154F500EAE7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		815D4DD51FA154F500EAE7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815D4DE11FA15A8300EAE7E1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		815D4DE31FA15A8E00EAE7E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "MyAnalitics/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81DF863B1FA94BB800AB855A /* zapato3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zapato3.jpeg; path = MyAnalitics/Images/zapato3.jpeg; sourceTree = SOURCE_ROOT; };
+		81DF863C1FA94BB800AB855A /* zapato1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zapato1.jpeg; path = MyAnalitics/Images/zapato1.jpeg; sourceTree = SOURCE_ROOT; };
+		81DF863D1FA94BB800AB855A /* zapato2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zapato2.jpeg; path = MyAnalitics/Images/zapato2.jpeg; sourceTree = SOURCE_ROOT; };
+		81DF863E1FA94BB800AB855A /* zapato4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zapato4.jpeg; path = MyAnalitics/Images/zapato4.jpeg; sourceTree = SOURCE_ROOT; };
+		81DF86441FA94BEA00AB855A /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = cellMainTable.m; path = MyAnalitics/cellMainTable.m; sourceTree = SOURCE_ROOT; };
+		81DF86451FA94BEB00AB855A /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cellMainTable.h; path = MyAnalitics/cellMainTable.h; sourceTree = SOURCE_ROOT; };
+		81DF86461FA94BEB00AB855A /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = cellMainTable.xib; path = MyAnalitics/cellMainTable.xib; sourceTree = SOURCE_ROOT; };
+		81DF86491FA94BFB00AB855A /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = MyAnalitics/InfoViewController.h; sourceTree = "<group>"; };
+		81DF864A1FA94BFB00AB855A /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = MyAnalitics/InfoViewController.m; sourceTree = "<group>"; };
+		81DF864C1FA94E1400AB855A /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableController.h; path = MyAnalitics/TableController.h; sourceTree = "<group>"; };
+		81DF864D1FA94E1400AB855A /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableController.m; path = MyAnalitics/TableController.m; sourceTree = "<group>"; };
+		81DF86521FA9571E00AB855A /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BuyViewController.m; path = MyAnalitics/BuyViewController.m; sourceTree = "<group>"; };
+		81DF86531FA9571F00AB855A /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BuyViewController.h; path = MyAnalitics/BuyViewController.h; sourceTree = "<group>"; };
+		A32AA5C541C30FEA2407009B /* Pods-MyAnalitics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAnalitics.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAnalitics/Pods-MyAnalitics.release.xcconfig"; sourceTree = "<group>"; };
+		CC7117171A4526FE48206CBA /* Pods-MyAnalitics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAnalitics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAnalitics/Pods-MyAnalitics.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +63,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2712AB888E10F0CFC872F99 /* libPods-MyAnalitics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E467B51456808FBE1FAA0E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC7117171A4526FE48206CBA /* Pods-MyAnalitics.debug.xcconfig */,
+				A32AA5C541C30FEA2407009B /* Pods-MyAnalitics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		815D4DB81FA154F500EAE7E1 = {
 			isa = PBXGroup;
 			children = (
+				81DF863A1FA94B6F00AB855A /* Images */,
+				81DF86431FA94BD500AB855A /* Cells */,
+				815D4DE31FA15A8E00EAE7E1 /* GoogleService-Info.plist */,
+				815D4DE11FA15A8300EAE7E1 /* Podfile */,
+				815D4DDC1FA1554A00EAE7E1 /* Controllers */,
+				815D4DDB1FA1554300EAE7E1 /* Main */,
 				815D4DC31FA154F500EAE7E1 /* MyAnalitics */,
 				815D4DC21FA154F500EAE7E1 /* Products */,
+				6E467B51456808FBE1FAA0E1 /* Pods */,
+				E9EFB34778E69B488D5F06FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +106,6 @@
 		815D4DC31FA154F500EAE7E1 /* MyAnalitics */ = {
 			isa = PBXGroup;
 			children = (
-				815D4DC71FA154F500EAE7E1 /* AppDelegate.h */,
-				815D4DC81FA154F500EAE7E1 /* AppDelegate.m */,
-				815D4DCA1FA154F500EAE7E1 /* ViewController.h */,
-				815D4DCB1FA154F500EAE7E1 /* ViewController.m */,
 				815D4DCD1FA154F500EAE7E1 /* Main.storyboard */,
 				815D4DD01FA154F500EAE7E1 /* Assets.xcassets */,
 				815D4DD21FA154F500EAE7E1 /* LaunchScreen.storyboard */,
@@ -79,6 +123,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		815D4DDB1FA1554300EAE7E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				815D4DC71FA154F500EAE7E1 /* AppDelegate.h */,
+				815D4DC81FA154F500EAE7E1 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		815D4DDC1FA1554A00EAE7E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81DF86531FA9571F00AB855A /* BuyViewController.h */,
+				81DF86521FA9571E00AB855A /* BuyViewController.m */,
+				81DF864C1FA94E1400AB855A /* TableController.h */,
+				81DF864D1FA94E1400AB855A /* TableController.m */,
+				81DF86491FA94BFB00AB855A /* InfoViewController.h */,
+				81DF864A1FA94BFB00AB855A /* InfoViewController.m */,
+				815D4DCA1FA154F500EAE7E1 /* ViewController.h */,
+				815D4DCB1FA154F500EAE7E1 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		81DF863A1FA94B6F00AB855A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				81DF863C1FA94BB800AB855A /* zapato1.jpeg */,
+				81DF863D1FA94BB800AB855A /* zapato2.jpeg */,
+				81DF863B1FA94BB800AB855A /* zapato3.jpeg */,
+				81DF863E1FA94BB800AB855A /* zapato4.jpeg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		81DF86431FA94BD500AB855A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				81DF86451FA94BEB00AB855A /* cellMainTable.h */,
+				81DF86441FA94BEA00AB855A /* cellMainTable.m */,
+				81DF86461FA94BEB00AB855A /* cellMainTable.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E9EFB34778E69B488D5F06FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B639FF5F3F5BA407C0FDEA /* libPods-MyAnalitics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 815D4DD81FA154F500EAE7E1 /* Build configuration list for PBXNativeTarget "MyAnalitics" */;
 			buildPhases = (
+				3981542A526B4B696CEA6EAE /* [CP] Check Pods Manifest.lock */,
 				815D4DBD1FA154F500EAE7E1 /* Sources */,
 				815D4DBE1FA154F500EAE7E1 /* Frameworks */,
 				815D4DBF1FA154F500EAE7E1 /* Resources */,
+				DBFE8ABC1BE21A3749A0C345 /* [CP] Embed Pods Frameworks */,
+				31D5C471052131B85DAFE77E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +237,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81DF86401FA94BB900AB855A /* zapato1.jpeg in Resources */,
+				81DF86481FA94BEB00AB855A /* cellMainTable.xib in Resources */,
+				81DF86411FA94BB900AB855A /* zapato2.jpeg in Resources */,
+				81DF863F1FA94BB900AB855A /* zapato3.jpeg in Resources */,
+				81DF86421FA94BB900AB855A /* zapato4.jpeg in Resources */,
 				815D4DD41FA154F500EAE7E1 /* LaunchScreen.storyboard in Resources */,
 				815D4DD11FA154F500EAE7E1 /* Assets.xcassets in Resources */,
+				815D4DE41FA15A8E00EAE7E1 /* GoogleService-Info.plist in Resources */,
+				815D4DE21FA15A8300EAE7E1 /* Podfile in Resources */,
 				815D4DCF1FA154F500EAE7E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D5C471052131B85DAFE77E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalitics/Pods-MyAnalitics-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalitics/Pods-MyAnalitics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3981542A526B4B696CEA6EAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAnalitics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBFE8ABC1BE21A3749A0C345 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAnalitics/Pods-MyAnalitics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		815D4DBD1FA154F500EAE7E1 /* Sources */ = {
@@ -151,8 +313,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				815D4DCC1FA154F500EAE7E1 /* ViewController.m in Sources */,
+				81DF864E1FA94E1400AB855A /* TableController.m in Sources */,
 				815D4DC91FA154F500EAE7E1 /* AppDelegate.m in Sources */,
+				81DF864B1FA94BFC00AB855A /* InfoViewController.m in Sources */,
+				81DF86541FA9572000AB855A /* BuyViewController.m in Sources */,
 				815D4DC61FA154F500EAE7E1 /* main.m in Sources */,
+				81DF86471FA94BEB00AB855A /* cellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +436,11 @@
 		};
 		815D4DD91FA154F500EAE7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7117171A4526FE48206CBA /* Pods-MyAnalitics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyAnalitics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mac.MyAnalitics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,9 +449,11 @@
 		};
 		815D4DDA1FA154F500EAE7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32AA5C541C30FEA2407009B /* Pods-MyAnalitics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyAnalitics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mac.MyAnalitics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +479,7 @@
 				815D4DDA1FA154F500EAE7E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

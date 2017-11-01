@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GoogleSignIn;
+@import Firebase;
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<GIDSignInDelegate, GIDSignInUIDelegate>
+- (IBAction)btnSignInPressed:(id)sender;
+- (IBAction)btnSignOutPressed:(id)sender;
 
 
 @end
